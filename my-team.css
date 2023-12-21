@@ -1,0 +1,54 @@
+.team-col {
+  padding-top: 30px;
+}
+.team-member-card {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+.team-member-card img {
+  border-radius: 5px;
+}
+.team-member-details {
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(255, 170, 0, 0.647);
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+.team-member-details:hover {
+  opacity: 1;
+}
+
+.team-member-details h3 {
+  /* style here if needed */
+}
+.team-member-details p {
+  /* style here if needed */
+}
+.team-member-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-member-social-links a i {
+  color: black;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.team-member-social-links a i:hover {
+  color: white;
+  transform: rotate(360deg);
+}
